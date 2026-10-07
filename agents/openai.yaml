@@ -1,0 +1,6 @@
+interface:
+  display_name: "Xinchen Strategy Advisor"
+  short_description: "xinchen 的战略顾问：需求、产品、商业、发布与渠道"
+  default_prompt: "请使用 $xinchen-strategy-advisor 评审我提供的项目，先给总判断，再给分项依据，最后列出人和 AI 的任务、交付物与验收标准。"
+policy:
+  allow_implicit_invocation: true
