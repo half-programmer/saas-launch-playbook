@@ -4,6 +4,8 @@
 
 1.1.0 增加独立 GitHub 分发和明确的 Codex 全局安装/更新说明；五方法路由、分析逻辑与固定上游版本保持不变。
 
+分发分支：`half-programmer/saas-launch-playbook` 的 `xinchen-strategy-advisor`。它只用于本封装的发布，源方法仍固定到下表中的上游提交。
+
 本入口将以下五个社区 skills 组织为一个可复用方法。自编的 `SKILL.md`、执行方法、输出约定及安装说明不属于上游原文。
 
 | 方法 | 来源与固定提交 | 上游入口 |

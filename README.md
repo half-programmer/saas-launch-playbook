@@ -4,12 +4,14 @@
 
 一个入口统筹五个方法：用户需求、产品战略、商业决策、SaaS 发布和分发渠道。默认输出「总判断 → 分项依据 → 人和 AI 的行动、产物与验收」。单点问题按需加载，深度评审整合五个视角。
 
+发布位置：[half-programmer/saas-launch-playbook 的 xinchen-strategy-advisor 分支](https://github.com/half-programmer/saas-launch-playbook/tree/xinchen-strategy-advisor)。该分支以本技能为根目录，可单独安装。
+
 ## 安装一次，各项目调用
 
 在运行 Codex 的客户端机器上执行：
 
 ```bash
-npx --yes skills@1.7.0 add half-programmer/xinchen-strategy-advisor --global --agent codex --skill xinchen-strategy-advisor --copy --yes
+npx --yes skills@1.7.0 add https://github.com/half-programmer/saas-launch-playbook/tree/xinchen-strategy-advisor --global --agent codex --skill xinchen-strategy-advisor --copy --yes
 ```
 
 `--global` 是关键：安装到用户级目录，而不是当前项目的 `.agents/skills/`。`--copy` 保留完整文件，避免依赖原仓库或临时下载目录。重新加载技能或新开会话后，可在该客户端的任意项目调用。
